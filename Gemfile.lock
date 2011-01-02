@@ -31,6 +31,8 @@ GEM
     annotate-models (1.0.4)
     arel (2.0.6)
     builder (2.1.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -40,6 +42,7 @@ GEM
       rails (>= 3.0.0.beta4)
     faker (0.3.1)
     gravatar_image_tag (1.0.0.pre2)
+    haml (3.0.25)
     i18n (0.5.0)
     mail (2.2.12)
       activesupport (>= 2.3.6)
@@ -98,9 +101,11 @@ PLATFORMS
 
 DEPENDENCIES
   annotate-models (= 1.0.4)
+  compass (>= 0.10.6)
   factory_girl_rails (= 1.0)
   faker (= 0.3.1)
   gravatar_image_tag (= 1.0.0.pre2)
+  haml
   rails (= 3.0.3)
   rspec (= 2.3.0)
   rspec-rails (= 2.3.0)

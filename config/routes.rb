@@ -1,4 +1,10 @@
 StoreApp::Application.routes.draw do
+  get "pages/about"
+
+  get "pages/contact"
+
+  get "pages/sales"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
