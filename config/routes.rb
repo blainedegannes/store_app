@@ -1,9 +1,7 @@
 StoreApp::Application.routes.draw do
-  get "pages/about"
-
-  get "pages/contact"
-
-  get "pages/sales"
+  match '/about', :to => 'pages#about' 
+  match '/contact', :to => 'pages#contact'
+  match '/sales', :to => 'pages#sales'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
