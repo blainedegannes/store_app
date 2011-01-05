@@ -11,4 +11,7 @@ class PagesController < ApplicationController
     @title = "Sales"
   end
 
+  def home
+     @title = "Home"
+  end
 end
