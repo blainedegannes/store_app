@@ -1,5 +1,6 @@
 StoreApp::Application.routes.draw do
-  root :to => "pages#home"
+  get "main/home"
+
   match '/about', :to => 'pages#about' 
   match '/contact', :to => 'pages#contact'
   match '/sales', :to => 'pages#sales'

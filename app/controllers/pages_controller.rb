@@ -10,8 +10,4 @@ class PagesController < ApplicationController
   def sales
     @title = "Sales"
   end
-
-  def home
-     @title = "Home"
-  end
 end
