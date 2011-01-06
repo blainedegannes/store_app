@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title #{title}
+    = stylesheet_link_tag 'compiled/home.css', :media => 'screen'
+    %header
+      = image_tag("entree_logo.png", :alt => "Entree", :class => "gold")
+    %body
+      .container
+      %nav.enter
+        %ul
+          %li #{link_to "Register", '#'}
+    %footer
+      %nav.round
+        %ul
+          %li #{link_to "about", about_path}
+          %li #{link_to "contact", contact_path}

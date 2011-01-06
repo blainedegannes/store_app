@@ -1,8 +1,10 @@
 $back: #525151;
 
+
 .container { 
-	width: 990px;
+	width: 100%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 }
 
 header {
-	padding-top: 20px;
+	padding-top: 1em;
 	img{ 
 		padding: 1em;
 		background: $back;	
@@ -19,11 +21,11 @@ header {
 
 section {
 	margin-top: 1em;
-	font-size: 120%;
+	font-size: 110%;
 	padding: 20px;
 	background: $back;
 	h1{
-		font-size: 200%;
+		font-size: 150%;
 	}
 }
 
