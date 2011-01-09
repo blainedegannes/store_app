@@ -1,42 +1,29 @@
 /*
-Syntax error: Undefined mixin 'grid-system'.
-        on line 13 of /Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss, in `grid-system'
-        from line 13 of /Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss
+Syntax error: Invalid CSS after "...idth(16); } }*/": expected "{", was ""
+        on line 35 of /Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss
 
-8: 
-9: +global-reset
-10: 
-11: // The following generates the default grids provided by the css version of 960.gs
-12: .container_12 {
-13:   @include grid-system(12); }
-14: 
-15: .container_16 {
-16:   @include grid-system(16); }
-17: 
-18: // But most compass users prefer to construct semantic layouts like so (two column layout with header and footer):
+30:   *  @include grid-width(24); }
+31:   *#sidebar {
+32:   *  @include grid-width(8); }
+33:   *#main-content {
+34:   *  @include grid-width(16); } }*/
 
 Backtrace:
-/Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss:13:in `grid-system'
-/Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss:13
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/mixin_node.rb:62:in `perform!'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `block in perform_children'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:317:in `perform!'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/rule_node.rb:191:in `perform!'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `block in perform_children'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:317:in `perform!'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/root_node.rb:59:in `perform!'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/root_node.rb:37:in `perform'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/tree/root_node.rb:29:in `render'
+/Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss:35
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:838:in `expected'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:813:in `expected'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:809:in `tok!'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:338:in `block'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:333:in `ruleset'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:356:in `block_child'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:350:in `block_contents'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:57:in `stylesheet'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/scss/parser.rb:26:in `parse'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/engine.rb:213:in `_to_tree'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/engine.rb:179:in `block in to_tree'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/haml/util.rb:294:in `silence_haml_warnings'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/engine.rb:179:in `to_tree'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/files.rb:44:in `tree_for'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/plugin.rb:223:in `update_stylesheet'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/plugin.rb:88:in `block (2 levels) in update_stylesheets'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/haml-3.0.25/lib/sass/plugin.rb:81:in `each'
@@ -62,6 +49,7 @@ Backtrace:
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
@@ -70,45 +58,15 @@ Backtrace:
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
 /Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-test-0.5.6/lib/rack/mock_session.rb:30:in `request'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-test-0.5.6/lib/rack/test.rb:209:in `process_request'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-test-0.5.6/lib/rack/test.rb:105:in `request'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/testing/integration.rb:292:in `process'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/testing/integration.rb:32:in `get'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.3/lib/action_dispatch/testing/integration.rb:325:in `block (2 levels) in <module:Runner>'
-/Users/blainedegannes/rails_project/store_app/spec/requests/layout_links_spec.rb:6:in `block (2 levels) in <top (required)>'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:40:in `instance_eval'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:40:in `block (2 levels) in run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:88:in `with_around_hooks'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:37:in `block in run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:81:in `block in with_pending_capture'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:80:in `catch'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:80:in `with_pending_capture'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example.rb:36:in `run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example_group.rb:261:in `block in run_examples'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example_group.rb:257:in `map'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example_group.rb:257:in `run_examples'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/example_group.rb:231:in `run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/command_line.rb:27:in `block (2 levels) in run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/command_line.rb:27:in `map'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/command_line.rb:27:in `block in run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/reporter.rb:12:in `report'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/core/command_line.rb:24:in `run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rspec-core-2.3.1/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:13:in `block in run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/forker.rb:21:in `block in initialize'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/forker.rb:18:in `fork'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/forker.rb:18:in `initialize'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `new'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `run'
-/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/spork-0.8.4/lib/spork/server.rb:47:in `run'
-/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
-/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
-/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
-/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
-/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/blainedegannes/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/blainedegannes/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'grid-system'.\A         on line 13 of /Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss, in `grid-system'\A         from line 13 of /Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss\A \A 8: \A 9: +global-reset\A 10: \A 11: // The following generates the default grids provided by the css version of 960.gs\A 12: .container_12 {\A 13:   @include grid-system(12); }\A 14: \A 15: .container_16 {\A 16:   @include grid-system(16); }\A 17: \A 18: // But most compass users prefer to construct semantic layouts like so (two column layout with header and footer):"; }
+  content: "Syntax error: Invalid CSS after \"...idth(16); } }*/\": expected \"{\", was \"\"\A         on line 35 of /Users/blainedegannes/rails_project/store_app/app/stylesheets/grid.scss\A \A 30:   *  @include grid-width(24); }\A 31:   *#sidebar {\A 32:   *  @include grid-width(8); }\A 33:   *#main-content {\A 34:   *  @include grid-width(16); } }*/"; }
